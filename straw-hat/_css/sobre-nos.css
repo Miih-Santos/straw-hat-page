@@ -1,0 +1,54 @@
+.banner-principal {
+    height: 100vh;
+    background-image: url(../_img/cover-page-sbs.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-principal-itens {
+    color: rgb(0, 0, 0);
+}
+
+#conteudo {
+    margin: 0 10%;
+    border-bottom: 2px solid snow;
+    margin-bottom: 40px;
+}
+
+#conteudo h1 {
+    text-align: center;
+    font-size: 64px;
+    font-family: "Love Ya Like A Sister", cursive;
+    margin: 20px;
+}
+
+#conteudo h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: "Love Ya Like A Sister", cursive;
+    margin: 20px;
+    border-top: 2px solid snow;
+    padding-top: 10px;
+}
+
+#conteudo ol {
+    font-size: 20px;
+    color: #5a554e;
+    font-family: "Sedan SC", serif;
+    margin: 20px;
+    margin-left: 450px;
+}
+
+#conteudo h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Love Ya Like A Sister", cursive;
+    margin: 20px;
+}
+
+#conteudo p {
+    font-size: 20px;
+    color: #5a554e;
+    font-family: "Sedan SC", serif;
+}

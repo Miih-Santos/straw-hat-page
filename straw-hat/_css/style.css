@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #E8DFCA;
+}
+
+.banner-principal {
+    height: 100vh;
+    background-image: url(../_img/imagens-da-home/cover-page.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.rolagem {
+    background-color: #404040;
+    padding: 0 5%;
+    margin-left: -10px;
+    margin-top: -70px;
+    bottom: 595px;
+    opacity: 80%;
+    height: 100px;
+}
+
+.contaider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    position: fixed;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: -50px;
+    transition: .2s;
+}
+
+.cabecalho-logo {
+    width: 20%;
+}
+
+.menu-principal {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;  
+    gap: 90px;
+}
+
+.menu-principal-itens {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: .2s;
+
+}
+
+.menu-principal-itens:hover {
+    background-color: #ffffff;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+
+.botao-inscreva-se {
+    border: none;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 25px;
+    transition: .2s;
+}
+
+.botao-inscreva-se a {
+    color: black;
+    transition: .2s;
+}
+
+.botao-inscreva-se:hover {
+    background-color: rgb(64, 145, 238);
+    color: #ffffff;
+    cursor: pointer;
+} 
+
+.botao-inscreva-se a:hover {
+    color: #ffffff;
+}
+
+/* Formatação seção 01 */
+
+.conteudo {
+    padding: 32px;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid snow;
+}
+
+.conteudo-principal-parte-escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudo-principal-titulo {
+    font-size: 64px;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+.conteudo-principal-subtitulo {
+    font-size: 32px;
+    color: #404040;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+.conteudo-principal-paragrafo {
+    font-size: 20px;
+    color: #5a554e;
+    font-family: "Sedan SC", serif;
+}
+
+.segundo-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid snow;
+}
+
+.segundo-conteudo-img {
+    margin-bottom: 30px;
+}
+
+.segundo-conteudo-parte-escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+}
+
+.segundo-conteudo-titulo {
+    font-size: 64px;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+.segundo-conteudo-paragrafo {
+    font-size: 25px;
+    color: #5a554e;
+    font-family: "Sedan SC", serif;
+    margin: -50px 20px 0 0;
+}
+
+
+.terceiro-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid snow;
+}
+
+.terceiro-conteudo-parte-escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.terceiro-conteudo-titulo {
+    font-size: 64px;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+.terceiro-conteudo-paragrafo {
+    font-size: 20px;
+    color: #5a554e;
+    font-family: "Sedan SC", serif;
+}
+
+.botao-saiba-mais {
+    border: none;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 25px;
+    width: 150px;
+    transition: .2s;
+}
+
+.botao-saiba-mais:hover {
+    background-color: rgb(64, 145, 238);
+    color: #ffffff;
+    cursor: pointer;
+} 
+
+.botao-saiba-mais a:hover {
+    color: #ffffff;
+}
+
+.terceiro-conteudo-img {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.quarto-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid snow;
+}
+
+.quarto-conteudo-parte-escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.quarto-conteudo-titulo {
+    font-size: 64px;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+.quarto-conteudo-subtitulo {
+    font-size: 32px;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+.quarto-conteudo-paragrafo {
+    font-size: 20px;
+    color: #5a554e;
+    font-family: "Sedan SC", serif;
+}
+
+.botao-comprar-agora {
+    border: none;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 25px;
+    width: 150px;
+    transition: .2s;
+}
+
+.botao-comprar-agora:hover {
+    background-color: rgb(64, 145, 238);
+    color: #ffffff;
+    cursor: pointer;
+} 
+
+.botao-comprar-agora a:hover {
+    color: #ffffff;
+}
+
+.quarto-conteudo-img {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 40px;
+}
+

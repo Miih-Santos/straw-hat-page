@@ -1,0 +1,57 @@
+.banner-principal {
+    height: 100vh;
+    background-image: url(../_img/baixados\ \(2\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo-titulo {
+    font-size: 64px;
+    font-family: "Love Ya Like A Sister", cursive;
+    text-align: center;
+}
+
+.conteudo-subtitulo {
+    font-size: 32px;
+    color: #404040;
+    font-family: "Love Ya Like A Sister", cursive;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.comece-aqui-titulo {
+    font-size: 32px;
+    font-family: "Love Ya Like A Sister", cursive;
+    padding-top: 20px;
+    border-top: 2px solid snow;
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 32px;
+    font-family: "Love Ya Like A Sister", cursive;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+div.mangas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.avaliacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.preco-livro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+

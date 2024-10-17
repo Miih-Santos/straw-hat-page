@@ -1,0 +1,53 @@
+.banner-principal {
+    height: 100vh;
+    background-image: url(../_img/Sketch\ Book\ One\ Piece.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo-podcast-principal {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid snow;
+}
+
+.conteudo-podcast-principal h1 {
+    font-size: 64px;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+.conteudo-podcast-principal p {
+    font-size: 20px;
+    color: #5a554e;
+    font-family: "Sedan SC", serif;
+    margin-bottom: 40px;
+}
+
+#conteudo-podcast-secundario h2, h3 {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+#conteudo-podcast-secundario h2 {
+    font-size: 64px;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+#conteudo-podcast-secundario h3 {
+    font-size: 32px;
+    font-family: "Love Ya Like A Sister", cursive;
+    color: #5a554e;
+}
+
+#podcast {
+    display: grid;
+    grid-template-columns: 1000px 1000px;
+    row-gap: 32px ;
+    background-image: url(../_img/jelly-roger-one-piece.png);
+    background-position: center;
+}
